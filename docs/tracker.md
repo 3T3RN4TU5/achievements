@@ -1,14 +1,14 @@
 # Tracker
 
-Last updated: 2026-10-09 (counts from `achievement-tracker` and `gh api search/issues`)
+Last updated: 2026-10-11 (counts from `achievement-tracker` and `gh api search/issues`)
 
 ## Pull Shark
 | Item | Value |
 |---|---|
-| Merged PRs, authenticated (incl. private repos) | 87 |
-| Merged PRs, public only | 46 |
+| Merged PRs, authenticated (incl. private repos) | 88 |
+| Merged PRs, public only | 47 |
 | Next tier | 128 |
-| Remaining | 128 - 87 = **41** |
+| Remaining | 128 - 88 = **40** |
 
 Caveat: which count the badge uses is unconfirmed. Check the profile badge.
 
@@ -29,7 +29,7 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | libredb/libredb-studio#1571 | #1431 name refusal/host/timeout instead of "fetch failed" (4 connectors) | **MERGED 2026-10-08** after one round of review (TLS code only, timeout kind, doc line) |
 | libredb/libredb-studio#1595 | #1437 CockroachDB: no Edit on routines where the apply guard cannot run | **MERGED 2026-10-08**; maintainer merged main in and moved two line citations |
 | libredb/libredb-studio#1609 | #1393 Vitess 25: Explain probe asks a table when SELECT 1 is refused | **MERGED 2026-10-09**; maintainer pushed one Biome line-wrap fix in my test (lesson: never pipe a lint gate through tail) |
-| libredb/libredb-studio#1620 | #1403 StarRocks inline edit: retry a 1295-refused prepare as text | open 2026-10-09; verified live on StarRocks 4.1.6/3.3.22, MySQL, Doris |
+| libredb/libredb-studio#1620 | #1403 StarRocks inline edit: retry a 1295-refused prepare as text | **MERGED 2026-10-09**; CodeQL re-flagged the moved execute() calls (pre-existing, user SQL by design) |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
