@@ -23,14 +23,15 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | libredb/libredb-studio#1554 | #1456 MongoDB nullable inference + profiler nulls | **MERGED 2026-10-06** after one requested change |
 | reticlehq/reticle#1402 | #1360 absent check on a hidden element names state: hidden | closed 2026-10-07 as **shipped in Reticle 3.6.0** (merged via the release branch, credited in the release notes); not counted as a merged PR by GitHub |
 | libredb/libredb-studio#1556 | #1444 label Percona Server from @@version_comment | **MERGED 2026-10-06** |
-| corsairdev/corsair#1847 | #1838 Spotify search missing type | CI green; typing nit fixed; asked maintainer whether R4 demo video is needed |
+| corsairdev/corsair#1847 | #1838 Spotify search missing type | blocked on R4: live demo video needed (Spotify app keys = user); demo script ready at contrib/corsair/spotify-demo.ps1 |
 | libredb/libredb-studio#1561 | #1414 editor: selected statement keeps trailing ; on Elasticsearch | **MERGED 2026-10-07** after a doc wording change |
 | libredb/libredb-studio#1562 | #1450 LibreDB :memory: and missing-directory messages | **MERGED 2026-10-06** |
 | libredb/libredb-studio#1571 | #1431 name refusal/host/timeout instead of "fetch failed" (4 connectors) | **MERGED 2026-10-08** after one round of review (TLS code only, timeout kind, doc line) |
 | libredb/libredb-studio#1595 | #1437 CockroachDB: no Edit on routines where the apply guard cannot run | **MERGED 2026-10-08**; maintainer merged main in and moved two line citations |
 | libredb/libredb-studio#1609 | #1393 Vitess 25: Explain probe asks a table when SELECT 1 is refused | **MERGED 2026-10-09**; maintainer pushed one Biome line-wrap fix in my test (lesson: never pipe a lint gate through tail) |
 | libredb/libredb-studio#1620 | #1403 StarRocks inline edit: retry a 1295-refused prepare as text | **MERGED 2026-10-09**; CodeQL re-flagged the moved execute() calls (pre-existing, user SQL by design) |
-| lingui/js-lingui#2718 | #2072 docs list a format prop Plural/SelectOrdinal never had | open 2026-10-11; verified by running the macro and the runtime |
+| lingui/js-lingui#2718 | #2072 docs list a format prop Plural/SelectOrdinal never had | open; 2026-10-12 maintainer asked to fix docs pipeline: website Prettier (root .prettierignore skips website/), fixed, all checks green |
+| reticlehq/reticle#1574 | #1538 init: Next root layouts in route groups | open 2026-10-13; DCO signed, .changes entry, red/green checked |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
