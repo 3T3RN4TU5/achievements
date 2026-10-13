@@ -1,14 +1,14 @@
 # Tracker
 
-Last updated: 2026-10-11 (counts from `achievement-tracker` and `gh api search/issues`)
+Last updated: 2026-10-13 (counts from `achievement-tracker` and `gh api search/issues`)
 
 ## Pull Shark
 | Item | Value |
 |---|---|
-| Merged PRs, authenticated (incl. private repos) | 88 |
-| Merged PRs, public only | 47 |
+| Merged PRs, authenticated (incl. private repos) | 90 |
+| Merged PRs, public only | 49 |
 | Next tier | 128 |
-| Remaining | 128 - 88 = **40** |
+| Remaining | 128 - 90 = **38** |
 
 Caveat: which count the badge uses is unconfirmed. Check the profile badge.
 
@@ -30,8 +30,8 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | libredb/libredb-studio#1595 | #1437 CockroachDB: no Edit on routines where the apply guard cannot run | **MERGED 2026-10-08**; maintainer merged main in and moved two line citations |
 | libredb/libredb-studio#1609 | #1393 Vitess 25: Explain probe asks a table when SELECT 1 is refused | **MERGED 2026-10-09**; maintainer pushed one Biome line-wrap fix in my test (lesson: never pipe a lint gate through tail) |
 | libredb/libredb-studio#1620 | #1403 StarRocks inline edit: retry a 1295-refused prepare as text | **MERGED 2026-10-09**; CodeQL re-flagged the moved execute() calls (pre-existing, user SQL by design) |
-| lingui/js-lingui#2718 | #2072 docs list a format prop Plural/SelectOrdinal never had | open; 2026-10-12 maintainer asked to fix docs pipeline: website Prettier (root .prettierignore skips website/), fixed, all checks green |
-| reticlehq/reticle#1574 | #1538 init: Next root layouts in route groups | open 2026-10-13; DCO signed, .changes entry, red/green checked |
+| lingui/js-lingui#2718 | #2072 docs list a format prop Plural/SelectOrdinal never had | **MERGED 2026-10-13**, approved by andrii-bodnar after a website-Prettier fix |
+| reticlehq/reticle#1574 | #1538 init: Next root layouts in route groups | **MERGED 2026-10-13** by divshekhar; follow-ups: name unmounted group layouts, move test block off a JSDoc |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
