@@ -1,14 +1,14 @@
 # Tracker
 
-Last updated: 2026-10-13 (counts from `achievement-tracker` and `gh api search/issues`)
+Last updated: 2026-10-17 (counts from `achievement-tracker` and `gh api search/issues`)
 
 ## Pull Shark
 | Item | Value |
 |---|---|
-| Merged PRs, authenticated (incl. private repos) | 90 |
-| Merged PRs, public only | 49 |
+| Merged PRs, authenticated (incl. private repos) | 91 |
+| Merged PRs, public only | 50 |
 | Next tier | 128 |
-| Remaining | 128 - 90 = **38** |
+| Remaining | 128 - 91 = **37** |
 
 Caveat: which count the badge uses is unconfirmed. Check the profile badge.
 
@@ -32,7 +32,7 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | libredb/libredb-studio#1620 | #1403 StarRocks inline edit: retry a 1295-refused prepare as text | **MERGED 2026-10-09**; CodeQL re-flagged the moved execute() calls (pre-existing, user SQL by design) |
 | lingui/js-lingui#2718 | #2072 docs list a format prop Plural/SelectOrdinal never had | **MERGED 2026-10-13**, approved by andrii-bodnar after a website-Prettier fix |
 | reticlehq/reticle#1574 | #1538 init: Next root layouts in route groups | **MERGED 2026-10-13** by divshekhar; follow-ups: name unmounted group layouts, move test block off a JSDoc |
-| reticlehq/reticle#1603 | #1574 review follow-ups: name unmounted group layouts, JSDoc placement | open 2026-10-13; red/green checked, repo-wide format/lint/typecheck pass |
+| reticlehq/reticle#1603 | #1574 review follow-ups: name unmounted group layouts, JSDoc placement | **MERGED 2026-10-15** |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
