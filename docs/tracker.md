@@ -5,10 +5,10 @@ Last updated: 2026-10-17 (counts from `achievement-tracker` and `gh api search/i
 ## Pull Shark
 | Item | Value |
 |---|---|
-| Merged PRs, authenticated (incl. private repos) | 91 |
-| Merged PRs, public only | 50 |
+| Merged PRs, authenticated (incl. private repos) | 95 |
+| Merged PRs, public only | 52 |
 | Next tier | 128 |
-| Remaining | 128 - 91 = **37** |
+| Remaining | 128 - 95 = **33** |
 
 Caveat: which count the badge uses is unconfirmed. Check the profile badge.
 
@@ -33,8 +33,8 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | lingui/js-lingui#2718 | #2072 docs list a format prop Plural/SelectOrdinal never had | **MERGED 2026-10-13**, approved by andrii-bodnar after a website-Prettier fix |
 | reticlehq/reticle#1574 | #1538 init: Next root layouts in route groups | **MERGED 2026-10-13** by divshekhar; follow-ups: name unmounted group layouts, move test block off a JSDoc |
 | reticlehq/reticle#1603 | #1574 review follow-ups: name unmounted group layouts, JSDoc placement | **MERGED 2026-10-15** |
-| reticlehq/reticle#1719 | #1680 init: CLAUDE.md that imports AGENTS.md gets no second rule copy | open 2026-10-17; red/green checked, all CI green, awaiting maintainer |
-| reticlehq/reticle#1720 | #1675 server: plan agent configs on android/freebsd/openbsd instead of crashing init | open 2026-10-17; red/green checked, repo-wide format/lint/typecheck pass |
+| reticlehq/reticle#1719 | #1680 init: CLAUDE.md that imports AGENTS.md gets no second rule copy | **MERGED 2026-10-17**; approved by divshekhar after re-running red/green |
+| reticlehq/reticle#1720 | #1675 server: plan agent configs on android/freebsd/openbsd instead of crashing init | **MERGED 2026-10-17**; approved by divshekhar after re-running red/green |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
