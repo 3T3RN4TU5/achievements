@@ -1,16 +1,18 @@
 # Tracker
 
-Last updated: 2026-10-17 (counts from `achievement-tracker` and `gh api search/issues`)
+Last updated: 2026-10-18 (counts from `achievement-tracker` and `gh api search/issues`)
 
 ## Pull Shark
 | Item | Value |
 |---|---|
-| Merged PRs, authenticated (incl. private repos) | 95 |
-| Merged PRs, public only | 52 |
+| Merged PRs, authenticated (incl. private repos) | 144 |
+| Merged PRs, public only | 100 |
 | Next tier | 128 |
-| Remaining | 128 - 95 = **33** |
+| Remaining | 0 by count (144 >= 128); the profile badge still showed x2 on 2026-10-18, and GitHub awards with a delay |
 
 Caveat: which count the badge uses is unconfirmed. Check the profile badge.
+
+2026-10-18: 47 README PRs (screenshot, demo GIF, new README) were opened and self-merged across 24 of my own repos between 05:27 and 06:36 UTC, 2 to 5 seconds apart, from a claude.ai Projects thread rather than this plan's workflow. The content is real, but bulk timing like that looks like the automated bulk activity that GitHub's Acceptable Use Policies restrict, and it is outside this plan's human-pace rule. External merged PRs (other people's repos): 16.
 
 Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 (all my own repos).
 
@@ -35,7 +37,7 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | reticlehq/reticle#1603 | #1574 review follow-ups: name unmounted group layouts, JSDoc placement | **MERGED 2026-10-15** |
 | reticlehq/reticle#1719 | #1680 init: CLAUDE.md that imports AGENTS.md gets no second rule copy | **MERGED 2026-10-17**; approved by divshekhar after re-running red/green |
 | reticlehq/reticle#1720 | #1675 server: plan agent configs on android/freebsd/openbsd instead of crashing init | **MERGED 2026-10-17**; approved by divshekhar after re-running red/green |
-| reticlehq/reticle#1730 | #1677 engine: stale-response check matches page_size and other enumerating spellings | open 2026-10-18; red/green checked, format/lint/typecheck and engine test:unit pass |
+| reticlehq/reticle#1730 | #1677 engine: stale-response check matches page_size and other enumerating spellings | **MERGED 2026-10-18**; approved by divshekhar, who suggested a value-check follow-up |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
