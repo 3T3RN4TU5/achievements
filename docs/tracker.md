@@ -38,6 +38,7 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | reticlehq/reticle#1719 | #1680 init: CLAUDE.md that imports AGENTS.md gets no second rule copy | **MERGED 2026-10-17**; approved by divshekhar after re-running red/green |
 | reticlehq/reticle#1720 | #1675 server: plan agent configs on android/freebsd/openbsd instead of crashing init | **MERGED 2026-10-17**; approved by divshekhar after re-running red/green |
 | reticlehq/reticle#1730 | #1677 engine: stale-response check matches page_size and other enumerating spellings | **MERGED 2026-10-18**; approved by divshekhar, who suggested a value-check follow-up |
+| reticlehq/reticle#1737 | #1730 review follow-up: stale-response check compares paging values, not only names | open 2026-10-18; red/green checked, format/lint/typecheck and engine test:unit pass |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
