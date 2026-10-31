@@ -43,7 +43,7 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 
 Lesson: search all-state PRs for the issue number before claiming.
 
-Flagship (Jeevan2410/achievement-tracker): PRs #4, #5, #6, #8, #10, #12 merged; v0.1.0 released.
+Flagship (3T3RN4TU5/achievement-tracker): PRs #4, #5, #6, #8, #10, #12 merged; v0.1.0 released.
 
 ## Pair Extraordinaire
 | Item | Value |
