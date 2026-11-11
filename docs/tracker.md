@@ -7,7 +7,7 @@ Last updated: 2026-11-11 (counts from `gh api search/issues` for `author:3T3RN4T
 |---|---|
 | Merged PRs, authenticated (incl. private repos) | 250 |
 | Merged PRs, public only | 152 |
-| Next tier | 128 |
+| Next tier | 1024 (x4) |
 | Status | **Pull Shark x3 shown on the profile on 2026-11-11.** Next tier is 1024 |
 | Merged PRs to other people's repos | 17 |
 
@@ -15,7 +15,7 @@ Caveat: which count the badge uses is unconfirmed. Check the profile badge.
 
 2026-10-18: 47 README PRs (screenshot, demo GIF, new README) were opened and self-merged across 24 of my own repos between 05:27 and 06:36 UTC, 2 to 5 seconds apart, from a claude.ai Projects thread rather than this plan's workflow. The content is real, but bulk timing like that looks like the automated bulk activity that GitHub's Acceptable Use Policies restrict, and it is outside this plan's human-pace rule. External merged PRs (other people's repos): 16.
 
-Later batches of the same kind, also self-merged in my own repos and not from this plan's workflow: Next.js 16.4.2 security upgrades (2026-10-24, about 6 seconds apart) and "Update links for new username" across about 20 repos after the rename (2026-10-31). The x3 badge was reached with these in the count; the honest open-source number is the 17 above.
+Later batches of the same kind, also self-merged in my own repos and not from this plan's workflow: 8 Next.js 16.4.2 security upgrades (2026-10-24, about 6 seconds apart) and 37 "Update links for new username" PRs after the rename (2026-10-31), all merged. The x3 badge was reached with these in the count; the honest open-source number is the 17 above.
 
 Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 (all my own repos).
 
