@@ -44,6 +44,7 @@ Breakdown by repo: neelequip 25, Neel 9, Connect-4-game 5, projrc 4, BookNest 2 
 | reticlehq/reticle#1737 | #1730 review follow-up: stale-response check compares paging values, not only names | **MERGED 2026-10-19**, approved by divshekhar |
 | lingui/js-lingui#2773 | #1704 warn when `cjs` catalogs land in a `"type": "module"` package | open 2026-11-11; proposed on the issue 2026-10-05, kartik70 asked on 2026-11-11 and I confirmed before opening; red/green checked, 330 cli tests, tsc and eslint pass |
 | reticlehq/reticle#2240 | #1707 init wires the web build of an Expo app | open; maintainer (divshekhar) requested changes 2026-11-15 for one CI guard (flat-directory file counts), logic approved; counts recorded and pushed 2026-11-16 |
+| reticlehq/reticle#2291 (issue) | text predicate `count` | claimed 2026-11-16 with a design and 3 questions for maintainers; build after their answer |
 | (proposal) | lingui #1704 compileNamespace vs "type": "module" | asked maintainers which fix they want, 2026-10-05; no code until they answer |
 
 Lesson: search all-state PRs for the issue number before claiming.
